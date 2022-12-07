@@ -1,0 +1,129 @@
+*
+{
+    box-sizing: border-box;
+    text-align: center;
+}
+.contain
+{
+    height: 200px;
+    background-color: rgb(180, 215, 219);
+    display: flex;
+    justify-content:space-around;
+    align-content: center;
+}
+.sinhvien
+{
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    
+}
+
+.sub1
+{
+    font-size: 20px;
+    margin-top: 39px;
+}
+
+.name
+{
+    font-size: 40px;
+}
+
+.mssv
+{
+    font-size: 25px;
+    margin-top: 11px;
+}
+
+.icon
+{
+    flex: 0.75;
+    margin: auto;
+}
+
+
+
+.tendoan
+{
+    flex: 2;
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+    align-content: center;
+    justify-content: space-around;
+    text-align: center;
+    border-left: solid 3px rgb(4, 8, 28);
+    border-right: solid 3px rgb(4, 8, 28);
+
+}
+
+.TenProject
+{
+    font-size: 40px;
+
+}
+
+.GiaoVien
+{
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 27px;
+}
+.footer
+{
+    background: #68a8ca;
+    text-align: center;
+    padding: 5px;
+    margin-top:10px;
+    font-size: 20px;
+
+}
+
+.content
+{
+	text-align: center;
+	display: flex;
+	flex-flow: column;
+	margin: auto;
+	min-height: 449px;
+	margin-bottom: -9px;
+}
+
+.btn
+{
+	text-decoration: none;
+	display: block;
+	border: solid 2px #b5b4e4;
+	background-color: #c0bfd9;
+	padding: 5px 10px;
+	margin-top: 10px;
+}
+.rowheader
+{
+	background-color: #b3d8e6;
+	padding: 5px 0px;
+	font-weight: 300;
+}
+.title
+{
+	font-size: 35px;
+	font-weight: 400;
+	color: #f3a5ba;
+}
+
+.x-title
+{
+	font-size: 25px;
+	min-width: 100px;
+	padding: 20px;
+	margin-right: 50px;
+}
+
+.input
+{
+	min-width: 200px;
+	line-height: 35px;
+	font-size: 20px;
+}
