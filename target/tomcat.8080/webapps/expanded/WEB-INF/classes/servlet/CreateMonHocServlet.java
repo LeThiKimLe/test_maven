@@ -58,8 +58,8 @@ public class CreateMonHocServlet extends HttpServlet {
 		}
 		
         String maMon= (String)request.getParameter("maso_monhoc");
-        String tenMon = new String(request.getParameter("ten_monhoc").getBytes("UTF-8"));
-        String soTinchi = new String(request.getParameter("sotinchi").getBytes("UTF-8"));
+        String tenMon = new String(request.getParameter("ten_monhoc").getBytes("ISO-8859-1"), "UTF-8");
+        String soTinchi = new String(request.getParameter("sotinchi").getBytes("ISO-8859-1"), "UTF-8");
         
         int mamon = 0;
         int sotinchi=0;

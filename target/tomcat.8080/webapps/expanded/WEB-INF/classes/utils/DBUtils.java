@@ -76,8 +76,11 @@ public class DBUtils {
     }
 	public static void deleteMonHoc(Connection conn, int maMon) throws SQLException {
         String sql = "Delete from MONHOC where maso_monhoc=?";
+ 
         PreparedStatement pstm = conn.prepareStatement(sql);
+ 
         pstm.setInt(1, maMon);  
+        
         pstm.executeUpdate();
     }
 
