@@ -28,7 +28,7 @@ function testConfirmDialog(id)
 <body>
 <jsp:include page="_header.jsp"></jsp:include>
 <div class="content">
-	<h3 class="title"> DANH SÁCH MÔN HỌC </h3>
+	<h3 class="title"> DANH SÁCH MÔN HỌC HỌC KỲ 1</h3>
 	<p style="color: red;">${errorString}</p>
 	<table class="table" border="1" cellpadding="5" cellspacing="1" style="margin-top: -47px;">
 		<tr>
